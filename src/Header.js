@@ -5,14 +5,14 @@ export default class Header extends Component {
   render() {
     return (
       <header> 
-        <div className="titulo">React-Memoria</div>
+        <div className="titulo">!! React-Game of momoria !!</div>
           <div>
             <button className="boton-reiniciar" onClick={this.props.resetearPartida}>
-              Reiniciar
+              START
             </button>
         </div>
         <div className="titulo">
-          Intentos: {this.props.numeroDeIntentos}
+          Attempts: {this.props.numeroDeIntentos}
         </div>
       </header>
     );

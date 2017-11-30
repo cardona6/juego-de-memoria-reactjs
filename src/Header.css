@@ -15,6 +15,7 @@ header {
 
 .boton-reiniciar {
   position: absolute;
+  font: 150% sans-serif;
   left: 12px;
   top: 58px;
 }

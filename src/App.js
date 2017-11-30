@@ -27,7 +27,7 @@ class App extends Component {
           numeroDeIntentos={this.state.numeroDeIntentos}
           resetearPartida={() => this.resetearPartida()}
         />
-        <Tablero 
+        <Tablero  
           baraja={this.state.baraja}
           parejaSeleccionada={this.state.parejaSeleccionada}
           seleccionarCarta={(carta) => this.seleccionarCarta(carta)}
@@ -86,7 +86,7 @@ class App extends Component {
     if (
       baraja.filter((carta) => !carta.fueAdivinada).length === 0
     ) {
-      alert(`Ganaste en ${this.state.numeroDeIntentos} intentos!`);
+      alert(`Congratulations ${this.state.numeroDeIntentos} Attempts!`);
     }
   }
 
